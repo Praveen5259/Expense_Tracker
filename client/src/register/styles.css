@@ -1,0 +1,55 @@
+.FullPage{
+    background-image: url("./Cashflow2.jpg");
+    height: 800px;
+    padding-top: 30px;
+}
+.outerBorder1 {
+    height: 380px;
+    width: 380px;
+    border: 1px solid black;
+    padding: 12px;
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+    color:white;
+}
+.outerBorder1 h1 {
+    color: white;
+}
+.inputField1 { 
+    padding: 8px;
+    width: 228px;
+    height: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid;
+}
+.RegisterButton{
+    margin: auto;
+    margin-top: 2px;
+    width: 180px;
+    height: 40px;
+    background-color: #000080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid #000080;
+    color: white;
+    cursor: pointer;
+}
+.inputBlock1 {
+    width: 250px;
+    margin: auto;
+    text-align: left;
+}
+.confirmationMessage {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }

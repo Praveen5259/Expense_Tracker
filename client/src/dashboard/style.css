@@ -1,0 +1,256 @@
+.barChartBlock {
+  display: flex;
+  flex-direction: column;
+
+}
+.container {
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.alternativeBarChart {
+  width: 550px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #e9ecef;
+  border-radius: 10px;
+  border: 2px solid #ced4da;
+}
+.alternativeBarChart h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+.alternativeDoughnutChart {
+  width: 550px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #e9ecef;
+  border-radius: 10px;
+  border: 2px solid #ced4da;
+
+}
+.alternativeDoughnutChart h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+.graphcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+/* Style for the table container */
+.table-container {
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style for table header */
+th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style for table rows */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Style for table cells */
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Hover effect for table rows */
+tr:hover {
+  background-color: #e0e0e0;
+}
+.todayExpense {
+  text-align: center;
+  width: 1205px;
+  height: 180px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #e9ecef;
+  border: 2px solid #ced4da;
+}
+
+.todayExpense h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.todayExpense b {
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.buttonClass1 {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+.alternative {
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+  background-color: #e9ecef;
+  border-radius: 10px;
+  border: 2px solid #ced4da;
+
+}
+
+.alternative h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.alternative b {
+  font-weight: bold;
+  color: #666;
+}
+
+.buttonClass {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.buttonClass:hover {
+  background-color: #0056b3;
+}
+.buttonClass1:hover {
+  background-color: #0056b3;
+}
+.FullExpense {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.Button1 {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.Button1:hover {
+  background-color: #0056b3;
+}
+.Delete {
+  padding: 6px 12px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Delete:hover {
+  background-color: #c82333;
+}
+.Edit {
+  background-color: #007bff; /* Blue */
+  border: none;
+  color: white;
+  padding:6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.Edit:hover {
+  background-color: #0056b3; /* Darker blue */
+}
+.field-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.labelClass {
+  margin-bottom: 8px;
+}
+
+.inputClass input,
+.inputClass select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
+.Save {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.Cancel {
+  background-color: #f44336; /* Red */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}

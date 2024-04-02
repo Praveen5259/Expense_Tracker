@@ -1,0 +1,91 @@
+.FullPage1{
+  background-image: url("./Pension_Senior-Citizens-3-770x433.jpg");
+  height: 800px;
+  padding-top: 30px;
+}
+.container {
+  width: 50%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.confirmationModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.field-container {
+  margin-bottom: 20px;
+}
+
+.labelClass {
+  display: block; /* Change from inline-block to block */
+  width: 100px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px; /* Add margin-bottom for spacing */
+}
+
+
+.inputClass {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+input[type="number"],
+input[type="date"],
+select {
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.expenseButton {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+}
+
+.expenseButton:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for headings */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h3 {
+  color: #007bff;
+}
+
+/* Styling for error messages */
+.error-message {
+  color: #ff0000;
+  margin-top: 5px;
+}
+
+/* Styling for success message */
+.success-message {
+  color: #008000;
+  margin-top: 5px;
+}
